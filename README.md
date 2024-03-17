@@ -1,2 +1,3 @@
-# computer-networks
-Computer Networks course projects.
+# Computer Networks course projects.
+
+This repository contains all projects from my Computer Networks course.
