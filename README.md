@@ -10,12 +10,11 @@ This repository contains all projects undertaken during my Spring 2022 Computer 
 
 The aim of Project 1 was to become comfortable with socket programming and learn to write applications that use sockets to send information across a network. The task involved developing a tool capable of sending and receiving TCP packets between two hosts, functioning as a client and server, respectively.
 
-In client mode, the tool transmits TCP packets to the server within a specified timeframe, tracking the data sent to calculate the connection's bandwidth. Conversely, in server mode, the tool receives TCP packets and monitors the incoming data to compute the connection's bandwith based on the duration between receiving the first and last byte of data.
+In client mode, the tool transmits TCP packets to the server within a specified timeframe, tracking the data sent to calculate the connection's bandwidth. Conversely, in server mode, the tool receives TCP packets and monitors the incoming data to compute the connection's bandwidth based on the duration between receiving the first and last byte of data.
 
 The configuration of the virtual network topology was achieved using [Mininet](https://mininet.org/), a network emulator used to develop software-defined networks. The provided topology, defined in the `/'python scripts'` directory, establishes ten hosts and six network switches interconnected with links of varying bandwidth and latency. 
 
-[Topology Diagram]
-
+![mininet-topology](https://github.com/meshinc1/computer-networks/assets/63004334/501343d2-2462-41ff-999c-c56e8c4b10dd)
 The defined Mininet topology follows the above diagram.
 
 #### Result
