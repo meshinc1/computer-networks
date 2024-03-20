@@ -1,6 +1,3 @@
-/*
-    udp server example
-*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
